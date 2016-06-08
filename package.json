@@ -1,6 +1,6 @@
 {
   "name": "meteor-methods",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "ES6 import/export support for Meteor methods.",
   "keywords": [
     "meteor",
