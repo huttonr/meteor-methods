@@ -27,7 +27,7 @@ export const addCustomer = new Method('Customers_addCustomer', function (personN
 
 
 // customersTemplate.js
-import { testMethod } from './testingMethods.js';
+import { testMethod } from './customerMethods.js';
 
 /*    ...    */
 
