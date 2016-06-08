@@ -2,10 +2,26 @@
   "name": "meteor-methods",
   "version": "0.0.1",
   "description": "ES6 import/export support for Meteor methods.",
+  "keywords": [
+    "meteor",
+    "modules",
+    "methods",
+    "validated methods",
+    "meteor methods",
+    "es6",
+    "ecmascript"
+  ],
+  "bugs": {
+    "url": "https://github.com/huttonr/meteor-methods/issues"
+  },
+  "license": "MIT",
+  "author": "HuttonR",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/huttonr/meteor-methods"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "HuttonR",
-  "license": "MIT"
+  }
 }
