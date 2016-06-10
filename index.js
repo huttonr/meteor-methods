@@ -64,5 +64,17 @@ Method.setDefaultOptions = function (opts) {
 };
 
 
+var ServerMethod = function (name, func, opts) {
+  var newFunc = function () {
+    if (Meteor.isServer) {
+      return func.apply(this, arguments)
+    }
+  }
+
+  return Method(name, newFunc, opts)
+};
+
+
 module.exports.Method = Method;
+module.exports.ServerMethod = ServerMethod;
 module.exports.default = Method;
