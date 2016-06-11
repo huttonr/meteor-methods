@@ -19,7 +19,7 @@ var Method = function (name, func, opts) {
         this.Random = Random;
       }
 
-      func.apply(this, arguments);
+      return func.apply(this, arguments);
     };
   }
 
